@@ -1,24 +1,24 @@
-body{
+body {
   box-sizing: border-box;
 }
 
-ul{
+ul {
     list-style: none outside;
     margin: 0;
     padding: 0;
 }
 
-li{
+li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-#global-header{
+#global-header {
   position: relative;
   top: 18px;
   height: 36px;
@@ -30,13 +30,23 @@ a{
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 }
 
-#global-nav{
+#global-header {
+    background: linear-gradient(#648880, #293f50);
+}
+
+#global-nav {
   display: flex;
+  height: 36px;
 
 }
-#global-nav li{
+
+#global-nav li {
   flex-grow: 1;
   text-align: center;
+  width: 100%;
+  background-image: url('https://web.archive.org/web/20140301005411im_/http://images.apple.com/global/nav/images/globalnav_text.png');
 }
 
-
+#apple{
+    background-position: 0 0;
+}
