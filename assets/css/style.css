@@ -20,7 +20,7 @@ a {
 
 #global-header {
   position: relative;
-  top: 18px;
+  top: 82px;
   height: 36px;
   margin: 0 auto;
   display: block;
@@ -44,9 +44,53 @@ a {
   flex-grow: 1;
   text-align: center;
   width: 100%;
-  background-image: url('https://web.archive.org/web/20140301005411im_/http://images.apple.com/global/nav/images/globalnav_text.png');
+  height: 36px;
+  border-style: solid;
+  text-indent: -9999px;
+  cursor: pointer;
 }
 
-#apple{
-    background-position: 0 0;
+#global-nav li:first-child {
+  border-width: 0 2px 0 0;
+  border-radius: 4px 0 0 4px;
+}
+
+#apple {
+  background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% 0;
+}
+
+#store {
+  background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -30px;
+}
+
+#mac {
+  background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -60px;
+}
+
+#ipod {
+  background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -90px;
+}
+
+#iphone {
+  background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -120px;
+}
+
+#ipad {
+  background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -150px;
+}
+
+#itunes {
+  background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -180px;
+}
+
+#support {
+  background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -210px;
 }
