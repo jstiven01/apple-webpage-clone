@@ -1,5 +1,6 @@
 body {
-  box-sizing: border-box;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 ul {
@@ -16,6 +17,7 @@ li {
 
 a {
   text-decoration: none;
+  color: #08c;
 }
 
 #global-header {
@@ -267,9 +269,10 @@ a {
   left: 0;
   overflow: hidden;
   width: 100%;
-  height: 200px
+  height: 200px;
 }
-.promos-products {
+
+#promos-products {
   display: flex;
   height: 200px;
   z-index: 1;
@@ -280,7 +283,7 @@ a {
   max-width: 1440px;
 }
 
-.promos-products li {
+#promos-products li {
   flex-grow: 1;
   width: 100%;
   height: 200px;
@@ -290,11 +293,11 @@ a {
   padding-right: 2px;
 }
 
-.promos-products li:last-child {
+#promos-products li:last-child {
   padding-right: 0;
 }
 
-.promos-products a {
+#promos-products a {
   width: 100%;
   height: 200px;
   display: block;
@@ -314,4 +317,106 @@ a {
 
 #supplier {
   background: url('https://web.archive.org/web/20140301004352im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg') no-repeat;
+}
+
+.footer-section {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  min-width: 980px;
+  width: 100%;
+  height: 90px;
+  padding: 0;
+  color: #6e6e6e;
+  font-size: 11px;
+  line-height: 1.2;
+  text-align: center;
+  zoom: 1;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 980px;
+  padding: 1em 0 2.6em;
+  color: #6e6e6e;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.first-row-footer {
+  width: 100%;
+  display: flex;
+}
+
+.first-row-footer p{
+  width: 49%;
+  padding-top: 8px;
+  text-align: left;
+  margin: 0;
+}
+
+#links-footer-site {
+  display: flex;
+  flex-grow: 1;
+  width: 51%;
+  padding-top: 8px;
+  text-align: right
+}
+
+#links-footer-site li {
+  margin-left: .6em;
+  padding-left: .6em;
+  border-left: 1px solid #ccc;
+}
+
+#links-footer-site li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
+#links-footer-site li:last-child {
+  width: 16px;
+  height: 16px;
+}
+
+#flag {
+  width: 100%;
+  height: 16px;
+  display: block;
+  background: url('https://web.archive.org/web/20140204031617im_/http://images.apple.com/global/elements/flags/16x16/usa_2x.png') no-repeat;
+  background-size: 16px 16px;
+}
+
+#legal-footer {
+  display: flex;
+  padding-top: 1.5em;
+}
+
+#legal-footer p {
+  display: inline;
+  margin: 0;
+}
+
+#legal-footer li {
+  display: inline;
+}
+
+#legal-footer li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
+#legal-footer li:last-child {
+  margin-left: .6em;
+  padding-left: .6em;
+  border-left: 1px solid #ccc;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
 }
