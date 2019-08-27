@@ -20,6 +20,14 @@ a {
   color: #08c;
 }
 
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+#legal-footer li {
+  display: inline;
+}
+
 #global-header {
   position: relative;
   top: 80px;
@@ -69,8 +77,23 @@ a {
   border-right: #293f50 2px solid;
 }
 
+#apple:hover {
+  background: #293f50 url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% 0;
+  border-radius: 4px 0 0 4px;
+  border-right: #293f50 2px solid;
+  
+}
+
 #store {
   background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -30px;
+  border-right: #293f50 2px solid;
+  border-left: #293f50 1px solid;
+}
+
+#store:hover {
+  background: #293f50 url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
   background-position: 50% -30px;
   border-right: #293f50 2px solid;
   border-left: #293f50 1px solid;
@@ -83,8 +106,22 @@ a {
   border-left: #293f50 1px solid;
 }
 
+#mac:hover {
+  background: #293f50 url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -60px;
+  border-right: #293f50 2px solid;
+  border-left: #293f50 1px solid;
+}
+
 #ipod {
   background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -90px;
+  border-right: #293f50 2px solid;
+  border-left: #293f50 1px solid;
+}
+
+#ipod:hover {
+  background: #293f50 url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
   background-position: 50% -90px;
   border-right: #293f50 2px solid;
   border-left: #293f50 1px solid;
@@ -97,8 +134,22 @@ a {
   border-left: #293f50 1px solid;
 }
 
+#iphone:hover {
+  background: #293f50 url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -120px;
+  border-right: #293f50 2px solid;
+  border-left: #293f50 1px solid;
+}
+
 #ipad {
   background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -150px;
+  border-right: #293f50 2px solid;
+  border-left: #293f50 1px solid;
+}
+
+#ipad:hover {
+  background: #293f50 url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
   background-position: 50% -150px;
   border-right: #293f50 2px solid;
   border-left: #293f50 1px solid;
@@ -111,8 +162,22 @@ a {
   border-left: #293f50 1px solid;
 }
 
+#itunes:hover {
+  background: #293f50 url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -180px;
+  border-right: #293f50 2px solid;
+  border-left: #293f50 1px solid;
+}
+
 #support {
   background: url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
+  background-position: 50% -210px;
+  border-right: #293f50 2px solid;
+  border-left: #293f50 1px solid;
+}
+
+#support:hover {
+  background: #293f50 url('https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.png') no-repeat;
   background-position: 50% -210px;
   border-right: #293f50 2px solid;
   border-left: #293f50 1px solid;
@@ -155,6 +220,7 @@ a {
   text-align: start;
   cursor: text;
   background: transparent;
+  border-style: inset; 
 }
 
 #search-icon-section {
@@ -351,7 +417,7 @@ a {
   display: flex;
 }
 
-.first-row-footer p{
+.first-row-footer p {
   width: 49%;
   padding-top: 8px;
   text-align: left;
@@ -363,12 +429,12 @@ a {
   flex-grow: 1;
   width: 51%;
   padding-top: 8px;
-  text-align: right
+  text-align: right;
 }
 
 #links-footer-site li {
-  margin-left: .6em;
-  padding-left: .6em;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
   border-left: 1px solid #ccc;
 }
 
@@ -401,10 +467,6 @@ a {
   margin: 0;
 }
 
-#legal-footer li {
-  display: inline;
-}
-
 #legal-footer li:first-child {
   margin-left: 0;
   padding-left: 0;
@@ -412,11 +474,8 @@ a {
 }
 
 #legal-footer li:last-child {
-  margin-left: .6em;
-  padding-left: .6em;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
   border-left: 1px solid #ccc;
 }
 
-.footer-section a:hover {
-  text-decoration: underline;
-}
